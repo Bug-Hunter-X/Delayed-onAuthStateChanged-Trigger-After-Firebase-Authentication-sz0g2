@@ -1,0 +1,1 @@
+The Firebase SDK's `onAuthStateChanged` listener might not trigger immediately after a successful login or signup, resulting in unexpected behavior in applications relying on immediate authentication state updates.  This is especially noticeable when the authentication happens quickly, such as during a silent sign-in.
